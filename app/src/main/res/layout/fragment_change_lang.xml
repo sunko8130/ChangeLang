@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <org.mmtextview.components.MMTextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/hello_world"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <org.mmtextview.components.MMTextView-->
+<!--        android:id="@+id/tv_hello"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <org.mmtextview.components.MMButton-->
+<!--        android:id="@+id/btn_myanmar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Myanmar"/>-->
+
+<!--    <org.mmtextview.components.MMButton-->
+<!--        android:id="@+id/btn_english"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="English"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_myanmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Myanmar"/>
+
+    <Button
+        android:id="@+id/btn_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="English"/>
+
+</LinearLayout>

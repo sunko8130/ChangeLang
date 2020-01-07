@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChangeLang</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="general">General</string>
+    <string name="lang">lang</string>
+    <string name="hello_world">မင်္ဂလာပါကမ္ဘာလောက</string>
+<!--    <string name="hello_world">မဂၤလာပါကမာၻေလာက</string>-->
+    <string name="lang_my">my</string>
+    <string name="lang_en">en</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="lang_entries">
+        <item>Myanmar</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="lang_values">
+        <item>my</item>
+        <item>en</item>
+    </string-array>
+</resources>
