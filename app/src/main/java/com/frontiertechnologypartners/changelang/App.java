@@ -5,10 +5,6 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.util.Log;
 
-import io.github.inflationx.calligraphy3.CalligraphyConfig;
-import io.github.inflationx.calligraphy3.CalligraphyInterceptor;
-import io.github.inflationx.viewpump.ViewPump;
-
 public class App extends Application {
 
     public static final String TAG = "App";
@@ -21,15 +17,9 @@ public class App extends Application {
         super.onCreate();
         //font override
         TypefaceUtil.overrideFont(getApplicationContext(), "SERIF", "fonts/pyidaungsu.ttf");
-//        TypefaceUtil.overrideFont(getApplicationContext(), "SERIF", "fonts/SmartZawgyi.ttf");
-
-//        ViewPump.init(ViewPump.builder()
-//                .addInterceptor(new CalligraphyInterceptor(
-//                        new CalligraphyConfig.Builder()
-//                                .setDefaultFontPath("fonts/mm3.ttf")
-//                                .setFontAttrId(R.attr.fontPath)
-//                                .build()))
-//                .build());
+        TypefaceUtil.overrideFont(getApplicationContext(), "MONOSPACE", "fonts/SmartZawgyi.ttf");
+        TypefaceUtil.overrideFont(getApplicationContext(), "NORMAL", "fonts/mm3.ttf");
+        TypefaceUtil.overrideFont(getApplicationContext(), "SANS_SERIF", "fonts/helvetca.ttf");
     }
 
     @Override

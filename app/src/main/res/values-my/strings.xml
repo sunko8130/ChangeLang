@@ -8,4 +8,8 @@
 <!--    <string name="hello_world">မဂၤလာပါကမာၻေလာက</string>-->
     <string name="lang_my">my</string>
     <string name="lang_en">en</string>
+    <string name="myanmar">မြန်မာ</string>
+    <string name="myanmar_zawgyi">ျမန္မာ ေဇာ္ေဖာင့္</string>
+    <string name="english">အင်္ဂလိပ်</string>
+
 </resources>

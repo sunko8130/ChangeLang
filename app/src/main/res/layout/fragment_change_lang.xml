@@ -42,6 +42,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/myanmar_zawgyi"
+        android:typeface="monospace"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:textSize="20sp" />
@@ -60,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:text="Myanmar"/>
+        android:text="@string/myanmar"/>
 
     <Button
         android:id="@+id/btn_english"
@@ -68,6 +77,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
-        android:text="English"/>
+        android:text="@string/english"/>
 
 </LinearLayout>
